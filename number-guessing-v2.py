@@ -8,7 +8,7 @@ print("Welcome to the Number Guessing Game!")
 print("What range do you want?")
 print("Try to guess the secret number between 1 and 10.")
 
-range = int(input("adjlfhlkjhaf: "))
+range = int(input("Range: "))
 secret_number = random.randint(1, range)
 
 while guess != secret_number:
